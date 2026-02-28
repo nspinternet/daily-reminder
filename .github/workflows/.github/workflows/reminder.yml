@@ -17,7 +17,7 @@ jobs:
         run: curl -L "https://nspinternet.free.nf/786-reminder.php"
 
   hit-787:
-    if: github.event.schedule == '10 7 * * *'
+    if: github.event.schedule == '15 15 * * *'
     runs-on: ubuntu-latest
     steps:
       - name: Hit 787 Reminder
